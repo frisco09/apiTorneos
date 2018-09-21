@@ -41,11 +41,11 @@ return [
 
         'mysql' => [
             'driver' => 'mysql',
-            'host' => env('DB_HOST', '127.0.0.1'),
+            'host' => env('DB_HOST', '190.228.29.62'),
             'port' => env('DB_PORT', '3306'),
-            'database' => env('DB_DATABASE', 'dbApiTorneos'),
-            'username' => env('DB_USERNAME', 'root'),
-            'password' => env('DB_PASSWORD', 'secret'),
+            'database' => env('DB_DATABASE', 'apk'),
+            'username' => env('DB_USERNAME', 'frisco12345'),
+            'password' => env('DB_PASSWORD', 'Frisco12345'),
             'unix_socket' => env('DB_SOCKET', ''),
             'charset' => 'utf8mb4',
             'collation' => 'utf8mb4_unicode_ci',
